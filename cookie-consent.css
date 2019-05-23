@@ -13,7 +13,7 @@
 }
 
 #cc .cc-body {
-    width: 1200px;
+    width: 100%;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -24,7 +24,7 @@
 }
 
 #cc .cc-body .cc-actions {
-    width: 20%;
+    width: 10%;
     float: left;
     text-align: center;
 }
@@ -32,6 +32,7 @@
 #cc.cc-white {
     background-color: #ffffff;
     color: #000000;
+    z-index: 500000;
 }
 
 #cc.cc-white a#cc-oK {
@@ -41,9 +42,10 @@
 
 #cc a#cc-ok {
     font-size: 1.2em;
-    margin: 10px 0 0 0;
+    margin: 0;
     padding: 10px 15px;
     border-radius: 4px;
     cursor: pointer;
     display: inline-block;
+    background: #e9e9e9;
 }
